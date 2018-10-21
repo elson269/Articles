@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Articles</string>
+    <string name="article_title">Article Title</string>
+    <string name="article_description">Article Description</string>
+    <string name="api_key">2b62324bfb41493bb49e3bb19073d484</string>
+
+
+</resources>
