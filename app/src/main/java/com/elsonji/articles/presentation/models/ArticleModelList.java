@@ -1,7 +1,5 @@
 package com.elsonji.articles.presentation.models;
 
-import com.elsonji.articles.domain.models.Article;
-
 import java.util.List;
 
 public class ArticleModelList {
