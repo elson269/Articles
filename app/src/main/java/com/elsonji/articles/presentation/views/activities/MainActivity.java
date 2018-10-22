@@ -55,15 +55,8 @@ public class MainActivity extends AppCompatActivity implements ArticleListView {
         ButterKnife.bind(this);
         ArticleApplication.getComponent().inject(this);
 
-        //articleAdapter = new ArticleAdapter(this);
         mRecyclerView.setAdapter(articleAdapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        //articleRetroMapper = new ArticleRetroMapper();
-        //articleModelMapper = new ArticleModelMapper();
-        //dataStore = new ArticleApiDataStore();
-        //articleRepositoryImpl = new ArticleRepositoryImpl(dataStore, articleRetroMapper);
-        //getArticlesInteractor = new GetArticlesInteractor(articleRepositoryImpl);
-        //presenter = new ArticlesPresenter(getArticlesInteractor, articleModelMapper);
         presenter.setArticleListView(this);
         presenter.getArticleList();
 
