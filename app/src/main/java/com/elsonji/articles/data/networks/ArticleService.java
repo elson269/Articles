@@ -10,6 +10,6 @@ import retrofit2.http.GET;
 
 public interface ArticleService {
 
-    @GET("articles?source=the-verge&apiKey=2b62324bfb41493bb49e3bb19073d484")
+    @GET("articles?source=the-verge&apiKey=YOUR_KEY")
     Observable<RetroArticleList> getArticles();
 }
